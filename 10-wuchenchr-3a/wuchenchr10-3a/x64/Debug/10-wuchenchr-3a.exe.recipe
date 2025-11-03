@@ -5,7 +5,11 @@
       <FullPath>C:\Users\Capta\OneDrive - Northeastern University\Fall 25\Engineering Algorithms\10-wuchenchr-3a\10-wuchenchr-3a\x64\Debug\10-wuchenchr-3a.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
-  <ContentFiles />
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>C:\Users\Capta\OneDrive - Northeastern University\Fall 25\Engineering Algorithms\10-wuchenchr-3a\10-wuchenchr-3a\Dictionary.txt</FullPath>
+    </ContentFile>
+  </ContentFiles>
   <SatelliteDlls />
   <NonRecipeFileRefs />
 </Project>

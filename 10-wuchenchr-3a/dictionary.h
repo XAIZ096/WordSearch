@@ -21,10 +21,10 @@ public:
 	void sortWords();
 
 	//Searches the sorted words vector for a target and returns the index where it is found
-	int binarySearch(string target);
+	int binarySearch(string target) const;
 
 	//Returns the word at the inputted index
-	string returnIndex(int index);
+	string returnIndex(int index) const;
 
 	//Overloaded output operator to print all words in dictionary
 	friend ostream& operator<<(ostream& os, const dictionary& dict);

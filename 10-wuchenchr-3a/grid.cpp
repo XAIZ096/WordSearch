@@ -15,7 +15,8 @@ grid::grid(string fileName)
     }
 
     // Read the grid size
-    inputFile >> size;
+    inputFile >> size >> size;
+
 
     // Initialize the matrix with the given size
     letterGrid = matrix<char>(size, size, ' ');
