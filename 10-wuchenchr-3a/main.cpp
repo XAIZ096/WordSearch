@@ -9,6 +9,27 @@
 using namespace std;
 
 
+// Global function to find matches between grid and dictionary
+void findMatches(const dictionary& dict, const grid& g)
+{
+    int size = g.getSize();
+    const matrix<char>& letterGrid = g.getGrid();
+    
+    // Define the 8 possible directions (dx, dy)
+    int directions[8][2] = {
+        {0, 1},   // right
+        {1, 0},   // down
+        {0, -1},  // left
+        {-1, 0},  // up
+        {1, 1},   // down-right
+        {1, -1},  // down-left
+        {-1, 1},  // up-right
+        {-1, -1}  // up-left
+    }
+	
+}
+
+
 int main() {
 	try {
 		dictionary newdic;
@@ -23,4 +44,5 @@ int main() {
 	catch (invalid_argument e) {
 		cout << e.what();
 	}
+
 }
