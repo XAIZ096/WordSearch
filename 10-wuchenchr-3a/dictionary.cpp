@@ -41,7 +41,7 @@ void dictionary::sortWords()
 }
 
 //Searches the sorted words vector for a target and returns the index where it is found
-int dictionary::binarySearch(string target)
+int dictionary::binarySearch(string target) const
 {
 	int lower = 0;
 	int upper = words.size() - 1;
@@ -64,7 +64,7 @@ int dictionary::binarySearch(string target)
 }
 
 //Returns the word at the inputted index
-string dictionary::returnIndex(int index)
+string dictionary::returnIndex(int index) const
 {
 	return words[index];
 }
